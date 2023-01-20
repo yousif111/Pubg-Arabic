@@ -132,7 +132,7 @@ local window = {} do
     end
 end
 
-local gui = window.new('NoMoreLife#6829');
+local gui = window.new('Old | NoMoreLife#6829');
 local tab = gui:Tab('Main');
 
 tab:Toggle('Silent Aim', function(value) _G.silentAim = value end)
@@ -142,8 +142,8 @@ tab:Toggle('No Spread', function(value) _G.noSpread = value end)
 tab:Toggle('Fast Guns', function(value) _G.fastFire = value end)
 tab:Toggle('Automatic Guns', function(value) _G.autoGuns = value end)
 tab:Banner('Credits', {
-    Scripting = "NoMoreLife#6829";
-    ["Mental support"] = "NoMoreLife#6829",
+    Scripting = "Old | NoMoreLife#6829";
+    ["Mental support"] = "Old | NoMoreLife#6829",
 })
 local Player = game:GetService("Players").LocalPlayer
 local Camera = game:GetService("Workspace").CurrentCamera
